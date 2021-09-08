@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock,Papor,Sisor</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <div class="app">
+    <div class="app_wrapp">
+      <div class="game_intro">
+        <div class="game_intro_wrap">
+          <div class="game_name">
+            <img src="./images/logo-bonus.svg" alt="">
+          </div>
+          <div class="game_score">
+            <div class="game_score_detail">
+              <span>SCORE</span>
+              <span class="score">0</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="game_detail">
+        <div class="game_detail_img-pentagion">
+          <img src="./images/bg-pentagon.svg" alt="">
+            <div class="game_icon_i" data-game-type="paper" >
+              <img src="./images/icon-paper.svg" alt="" class="game_image_icon">
+            </div>
+            <div class="game_icon_i" data-game-type="rock">
+              <img src="./images/icon-rock.svg" alt="" class="game_image_icon">
+            </div>
+            <div class="game_icon_i" data-game-type="scissors">
+              <img src="./images/icon-scissors.svg" alt="" class="game_image_icon">
+            </div>
+            <div class="game_icon_i" data-game-type="spock">
+              <img src="./images/icon-spock.svg" alt="" class="game_image_icon">
+            </div>
+            <div class="game_icon_i" data-game-type="lizard">
+              <img src="./images/icon-lizard.svg" alt="" class="game_image_icon">
+            </div>
+        </div>
+       
+       </div>
+    <!-- game user -->
+       <div class="game_display">
+         <div class="user_wrap">
+            <span class="user_text">USER</span>
+
+            <div class="user">
+              <div class="game_icon_ii">
+                <img src="./images/icon-paper.svg" alt="" class="game_image_icon">
+              </div>
+            </div>
+         </div>
+        <!-- result -->
+        <div class="result_wrap">
+          <h2 class="result_title">YOU LOSE</h2>
+          <div class="result_play_again">
+            <span class="result_text">PLAY AGAIN</span>
+          </div>
+        </div>
+        <!-- random -->
+        <div class="random_wrap">
+          <span class="random_text">THE HOUSE PICKED</span>
+
+          <div class="random">
+            <div class="game_icon_ii">
+              <img src="#" alt="" class="game_image_icon">
+            </div>
+          </div>
+       </div>
+       <!-- rule -->
+      
+        
+      </div>
+      <div class="rule">
+        <span class="rule-text">RULE</span>
+      </div>
+      <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="modal_text">RULES</span>
+         <img src="./images/image-rules-bonus.svg" alt="">
+        </div>
+      
+      </div>
+  </div>
+  <audio  id="myVideo"  >
+    <source  type="	audio/wav">
+   
+    
+  </audio>
+</body>
+
+<script src="./js/index.js"></script>
+</html>
