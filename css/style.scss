@@ -52,42 +52,39 @@ html{
                     display: inline-block;
                     margin: 0 auto;
                     max-width: 100%;
-                    object-fit: contain;
-                    height: 50vh;
-                    
+                    height: 60vh;
                 }
                 .game_icon_i{
                     position: absolute;
                     cursor: pointer;
                     &:nth-child(2){
                     bottom: 50%;
-                    left: 70%;
-                    
+                    right: 0;
                         background: linear-gradient(to right bottom,hsl(230, 89%, 62%),hsl(230, 89%, 65%) );
-                       
                         
                     }
                     &:nth-child(3){
                         top: 0;
-                        left: 50%;
-                        transform: translateX(-50%);
+                        left:50%;
+                        transform: translate(-50%,-50%);
                         background: linear-gradient(to right bottom, hsl(349, 71%, 52%) ,hsl(349, 70%, 56%) );
                         box-shadow:0px 6px 1px hsl(348, 75%, 35%)
                     }
                     &:nth-child(4){
                         bottom: 50%;
-                        right: 70%;
+                        left: 0;
+
                         background: linear-gradient(to right bottom, #ec9e0e 0%, #eca922);
                         box-shadow: hsl(30, 80%, 43%) 1px 7px 1px ;
                     }
                     &:nth-child(5){
                         bottom: 0;
-                        left: 25%;
+                        left: 10%;
                         background: linear-gradient(to right bottom, hsl(189, 59%, 53%) ,hsl(261, 72%, 63%));
                     }
                     &:last-child{
                         bottom: 0;
-                        right: 25%;
+                        right: 10%;
                         background: linear-gradient(to right bottom, hsl(261, 73%, 60%),hsl(261, 72%, 63%));
                     }
                     // 
